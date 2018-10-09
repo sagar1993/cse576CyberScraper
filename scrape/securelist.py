@@ -25,7 +25,7 @@ def text_from_html(body):
 def parse_data_save(query):
     url = 'https://securelist.com/?s=%s' % query 
     page = urllib2.urlopen(url)
-    soup = BeautifulSoup(page)
+    soup = BeautifulSoup(page, 'html.parser')
     content = soup.find('div', class_="site-content")
     articles = content.findChildren('article')
 
