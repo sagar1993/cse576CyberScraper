@@ -1,4 +1,5 @@
 # this script uses a search engine to parse blograpid7, please install selenium driver
+# Daniel Pilgrim-Minaya
 
 import urllib2
 import re
@@ -42,21 +43,21 @@ def parse_data_save(query):
     if searchChoice == 1:
         
         url = 'https://google.com/search?q=' + query + '+site:https://blog.rapid7.com/'
-        page = urllib2.urlopen(url)
         browser.get(url)
-        soup = BeautifulSoup(browser.page_source,"lxml")
-        name_link = soup.find_all('h3', class_='r') #names of titles
-        link = soup.find_all('cite') # links
-        for n_link, l in zip(name_link,link):
+        soup = BeautifulSoup(browser.page_source,"html5lib")
+        link = soup.select(".r a") # links
 
+        for l in link:
             # for each link result
-            d = {}
-            html = urllib2.urlopen(l).read()
-            d["query"] = query
-            d["url"] = l
-            d["text"] = text_from_html(html).encode('utf-8').strip()
-            result.append(d)
-            # print(f'{n_link.text}\n{l.text}')
+            try:
+                resulturl = l.get('href')
+                d = {}
+                html = urllib2.urlopen(resulturl).read()
+                d["query"] = query
+                d["url"] = resulturl
+                d["text"] = text_from_html(html).encode('utf-8').strip()
+                result.append(d)
+                # print(f'{n_link.text}\n{l.text}')
 
-    df = pd.DataFrame(result)
-    df.to_csv(query+"securelist.csv")
+        df = pd.DataFrame(result)
+        df.to_csv(query+"securelist.csv")
