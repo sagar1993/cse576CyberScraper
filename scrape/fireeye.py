@@ -1,4 +1,7 @@
-import urllib2
+try:
+    import urllib.request as urllib2
+except ImportError:
+    import urllib2
 import re
 from bs4 import BeautifulSoup
 import json
@@ -19,17 +22,17 @@ def tag_visible(element):
 def text_from_html(body):
     soup = BeautifulSoup(body, 'html.parser')
     texts = soup.findAll(text=True)
-    visible_texts = filter(tag_visible, texts)  
+    visible_texts = filter(tag_visible, texts)
     return u" ".join(t.strip() for t in visible_texts)
 
 def parse_data_save(query):
     # query = "APT1"
-    url = 'https://www.fireeye.com/search.html?q=%s&numResultsPerPage=50' % query 
+    url = 'https://www.fireeye.com/search.html?q=%s&numResultsPerPage=50' % query
 
     page = urllib2.urlopen(url)
     soup = BeautifulSoup(page)
     all_links = soup.find_all('a', class_="a03_link")
-
+    print("Num links: {}".format(len(all_links)))
     result = []
     for link in all_links:
         d = {}
@@ -40,4 +43,4 @@ def parse_data_save(query):
         result.append(d)
 
     df = pd.DataFrame(result)
-    df.to_csv(query+"fireeye.csv")
+    df.to_csv("../data/" + query + "fireeye.csv")
