@@ -41,6 +41,8 @@ def parse_data_save(query):
         html = urllib2.urlopen(url)
         s = BeautifulSoup(html, 'html.parser')
         main = s.find('main')
+        if not main:
+            continue
         doc = main.find('div', class_="entrytext section")
         if not doc:
             doc = main.find('div', class_="g-content")

@@ -43,7 +43,11 @@ def parse_data_save(query):
             html = urllib2.urlopen(url)
             s = BeautifulSoup(html, 'html.parser')
             article = s.find('article')
+            if not article:
+                continue
             doc = article.find('div', class_="entry-content")
+            if not doc:
+                continue
             d["query"] = query
             d["url"] = url
             d["text"] = text_from_html(doc).encode('utf-8').strip()
