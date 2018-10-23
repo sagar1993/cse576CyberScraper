@@ -20,8 +20,8 @@ def tag_visible(element):
 
 
 def text_from_html(body):
-    soup = BeautifulSoup(body, 'html.parser')
-    texts = soup.findAll(text=True)
+    # soup = BeautifulSoup(body, 'html.parser')
+    texts = body.findAll(text=True)
     visible_texts = filter(tag_visible, texts)
     return u" ".join(t.strip() for t in visible_texts)
 
@@ -40,12 +40,16 @@ def parse_data_save(query):
             url = article.find('h3', class_="entry-title").find('a').get("href")
             print(url)
             d = {}
-            html = urllib2.urlopen(url).read()
+            html = urllib2.urlopen(url)
+            s = BeautifulSoup(html, 'html.parser')
+            article = s.find('article')
+            doc = article.find('div', class_="entry-content")
             d["query"] = query
             d["url"] = url
-            d["text"] = text_from_html(html).encode('utf-8').strip()
+            d["text"] = text_from_html(doc).encode('utf-8').strip()
             result.append(d)
         except Exception as e:
             print("No results found for {}".format(query))
     df = pd.DataFrame(result)
     df.to_csv("../data/" + query + "securelist.csv")
+    return df
