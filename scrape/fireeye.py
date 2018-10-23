@@ -47,6 +47,7 @@ def parse_data_save(query):
         if not doc:
             doc = main.find('div', class_="g-content")
         d["url"] = url 
+        d["query"] = query
         d["text"] = text_from_html(doc).encode('utf-8').strip() if doc else ""
         result.append(d)
 
