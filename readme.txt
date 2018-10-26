@@ -1,4 +1,4 @@
-Task 2: Information Extraction, information retrieval
+## Information Extraction, information retrieval from Cybersecurity report websites
 
 Data: The cyber security companies’ security incident reports
 
@@ -18,7 +18,7 @@ SecueList: https://securelist.com
 Rapid7: https://blog.rapid7.com/ (This site does not have the keyword search function, so you need to find something different approach)
 Symantec: https://www.symantec.com/blogs/search
 
-Extract:
+## Extract:
 Group Name: Cozy Bear, APT 29, Cozy Duke, .... Targets: ......
 Incident dates: ....
 Used Malware or tools: ....
