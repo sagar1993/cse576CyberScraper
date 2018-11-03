@@ -23,10 +23,10 @@ def parse_page(key, url):
         texts = soup.find('div', class_="blog-post__content").get_text().encode('utf-8').strip()
         heading = soup.find('h1').get_text().encode('utf-8').strip()
         print(heading)
-    doc["keyword"] = key
-    doc["article-url"] = url
+    doc["query"] = key
+    doc["url"] = url
     doc["article-name"] = heading
-    doc["content"] = texts
+    doc["text"] = texts
     result.append(doc)
     df = pd.DataFrame(result)
     df.to_csv("../data/" + key + "symantec.csv")
