@@ -23,7 +23,7 @@ def parse_page(key, url):
     result.append(doc)
     df = pd.DataFrame(result)
     df.to_csv("../data/" + key + "crowdstrike.csv")
-    #df.to_csv("data/" + key + "crowdstrike.csv")
+    # df.to_csv("data/" + key + "crowdstrike.csv")
     
 result = []
 df = pd.read_csv("crowdstrike-list.csv")
@@ -31,5 +31,11 @@ rows = df.shape[0]
 for i in range(rows):
     keyword = df.key.ix[i]
     link = df.url.ix[i]
-    # print(keyword+" - "+link)
-    parse_page(keyword, link)
+    if i==0:
+        parse_page(keyword, link)
+    else:
+        if keyword == df.key.ix[i-1]:
+            parse_page(keyword, link)
+        else:
+            result = []
+            parse_page(keyword, link)
