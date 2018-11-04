@@ -1,0 +1,254 @@
+,query,text,url
+0,APT33,"Iranian Hackers Target Aerospace, Energy Companies
+A cyber espionage group linked by security researchers to the Iranian government has been observed targeting aerospace and energy organizations in the United States, Saudi Arabia and South Korea.
+The threat actor, tracked by FireEye as APT33, is believed to have been around since at least 2013. Since mid-2016, the security firm has spotted attacks aimed by this group at the aviation sector, including military and commercial aviation, and energy companies with connections to petrochemical production.
+Specifically, the cyberspies targeted a U.S. organization in the aerospace sector, a Saudi Arabian business conglomerate with aviation holdings, and a South Korean firm involved in oil refining and petrochemicals. In recent attacks, the hackers used job vacancies at a Saudi Arabian petrochemical firm to target the employees of organizations in South Korea and Saudi Arabia.
+“We assess the targeting of multiple companies with aviation-related partnerships to Saudi Arabia indicates that APT33 may possibly be looking to gain insights on Saudi Arabia’s military aviation capabilities to enhance Iran’s domestic aviation capabilities or to support Iran’s military and strategic decision making vis a vis Saudi Arabia,” FireEye said in a blog post.
+“We believe the targeting of the Saudi organization may have been an attempt to gain insight into regional rivals, while the targeting of South Korean companies may be due to South Korea’s recent partnerships with Iran’s petrochemical industry as well as South Korea’s relationships with Saudi petrochemical companies,” the company added.
+According to FireEye, the cyber espionage group sent hundreds of spear phishing emails last year. They set up several domains made to look as if they belonged to Saudi aviation firms and international organizations that work with them, including Alsalam Aircraft Company, Boeing and Northrop Grumman Aviation Arabia.
+The malware used by the group includes a dropper tracked by FireEye as DROPSHOT, a wiper named SHAPESHIFT, and a backdoor called TURNEDUP. DROPSHOT was previously analyzed by Kaspersky, which tracks it as StoneDrill.
+The StoneDrill malware was tied by Kaspersky to the notorious Shamoon 2 and Charming Kitten (aka Newscaster and NewsBeef), a threat actor believed to be operating out of Iran.
+FireEye has also linked APT33 to Iran based on connections to the “Nasr Institute,” which is said to be Iran’s “cyber army”, attacks launched during Iranian working hours, and the use of Iranian hacking tools.
+Iran appears to have several cyber espionage groups, including Rocket Kitten, Cobalt Gypsy (Magic Hound), Charming Kitten and CopyKittens.
+Related: Iranian Hackers Exploit Recent Office 0-Day in Attacks
+Related: Iranian Cyberspy Groups Share Malware Code
+Related: Iran-Linked Hackers Use ""Mia Ash"" Honey Trap to Compromise Targets
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+Register an Invite to the CISO Forum at Half Moon Bay
+
+sponsored links
+
+Tags: Cyberwarfare
+NEWS & INDUSTRY
+Virus & Threats
+Phishing
+Virus & Malware
+Malware",https://www.securityweek.com/iranian-hackers-target-aerospace-energy-companies
+1,APT33,"Five Threat Groups Target Industrial Systems: Dragos
+There are at least five sophisticated threat groups whose activities focus on industrial control systems (ICS), according to a report published on Thursday by industrial cybersecurity firm Dragos.
+While it’s not uncommon for non-targeted malware to make its way onto industrial systems, targeted attacks have also become increasingly common. Dragos currently tracks five threat actors that have either attacked ICS directly or have shown an interest in gathering information on these types of systems.
+One of these groups is tracked by the security firm as Electrum. This is the actor behind the CRASHOVERRIDE/Industroyer malware used in December 2016 to cause a power outage in Ukraine. Electrum has been linked to Sandworm Team, which is believed to be responsible for a 2015 power outage in Ukraine. Russia has been accused for both attacks.
+While it apparently hasn’t launched any major attacks since the 2016 campaign targeting Ukraine’s energy sector, Dragos says Electrum continues to be active, and evidence suggests it has expanded targets.
+“While past ELECTRUM activity has focused exclusively on Ukraine, information from low- level ongoing events and the group’s link to SANDWORM Dragos assesses that ELECTRUM could be ‘re-tasked’ to other areas depending on the focus of their sponsor,” Dragos said in its report.
+Another gang tracked by Dragos is Covellite, which has been linked to North Korea’s Lazarus group. Researchers started observing Covellite in September 2017, when it launched a highly targeted phishing campaign against a U.S. electric grid company. They later spotted attacks that may have been conducted by this group aimed at organizations in Europe, North America and East Asia.
+Unlike Electrum, Covellite has yet to use malware specifically designed to target industrial systems in its campaigns.
+Dragos’ report also summarizes the activities of Dymalloy, a group whose attacks came to light during an investigation into Dragonfly, an actor that is also known as Crouching Yeti and Energetic Bear. Dragonfly, which is believed to be operating out of Russia, is known for its sophisticated Havex malware, and it was recently observed targeting control systems in U.S. energy firms.
+Dragos believes Dymalloy is not linked – at least not directly – to Dragonfly and its tools are not as advanced as Havex. However, the hackers did manage to breach ICS organizations in Turkey, Europe and North America, gaining access to HMI devices.
+Experts say Dymalloy appears to have become less active since early 2017, possibly in response to attention from the media and security researchers.
+Learn More at SecurityWeek’s ICS Cyber Security Conference
+Since mid-2017, Dragos has been tracking a group it has named Chrysene, whose activity focuses on North America, Western Europe, Israel and Iraq, particularly organizations in the electricity generation and oil&gas sectors.
+Chrysene, which continues to be active, has used a unique variation of a framework associated with the Iran-linked cyber espionage groups known as OilRig and Greenbug.
+“While CHRYSENE’s malware features notable enhancements over related threat groups using similar tools, Dragos has not yet observed an ICS-specific capability employed by this activity group. Instead, all activity thus far appears to focus on IT penetration and espionage, with all targets being ICS-related organizations,” Dragos said.
+It’s worth noting that the recently uncovered piece of malware known as Trisis/Triton, which is the first threat specifically designed to disrupt safety instrumented systems (SIS), has also been linked by some researchers to Iran.
+The last ICS-focused threat group monitored by Dragos is Magnallium, which has also been linked to Iran. The security firm started tracking this actor following a report from FireEye on the activities of APT33.
+While some media reports portrayed APT33 as a serious threat to ICS and critical infrastructure, Dragos’ investigation showed that the group does not appear to possess any ICS-specific capabilities.
+“While only one [of these groups] has demonstrated an apparent capability to impact ICS networks through ICS-specific malware directly, all have engaged in at least reconnaissance and intelligence gathering surrounding the ICS environment,” Dragos said.
+“These groups have remained relatively constant regarding overall activity throughout the year, and Dragos is confident that additional unknown events have occurred,” the company added.
+Related: DHS Warns of Malware Targeting Industrial Safety Systems
+Related: DDoS Attacks More Likely to Hit Critical Infrastructure Than APTs
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
+Register an Invite to the CISO Forum at Half Moon Bay
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+
+sponsored links
+
+Tags: Cyberwarfare
+NEWS & INDUSTRY
+SCADA / ICS
+Virus & Threats
+Virus & Malware
+Malware",https://www.securityweek.com/five-threat-groups-target-industrial-systems-dragos
+2,APT33,"Iranian Hackers Impersonate Israeli Security Firm
+A group of Iranian hackers focused on cyber-espionage recently built up a website to impersonate ClearSky Cyber Security, the Israeli firm that exposed their activities not long ago.
+The hackers, tracked as APT35 and also known as NewsBeef, Newscaster, and Charming Kitten, have been active since at least 2011, with their activities detailed for the first time several years ago. 
+In December 2017, ClearSky Cyber Security published a report detailing the group’s activities during the 2016-2017 timeframe. The security firm not only described the actor’s infrastructure, but also provided information on DownPaper, a new piece of malware the hackers had been using. 
+The security firm exposed the link between the group and Behzad Mesri, also known as Skote Vahshat, who was charged in November 2017 with the hacking of HBO. Furthermore, the researchers also managed to establish the identity of two other alleged members of the group.
+Roughly half a year after the report was published, the security firm announced on its Twitter account that the hackers built their own site impersonating ClearSky. 
+“#CharmingKitten built a phishing website impersonating our company. The fake website is clearskysecurity\.net (the real website is http://clearskysec.com),” the security firm announced. 
+The advanced persistent threat (APT) apparently copied entire pages from the legitimate website, but also changed one of them to include a sign in option with multiple services. Anyone entering credentials there would have had them sent to the actor instead. 
+ “These sign in options are all phishing pages that would send the victim's credentials to the attackers. Our legitimate website does not have any sign in option. It seems that the impersonating website is still being built because some of the pages have error messages in them,” the security firm announced. 
+One of the pages on the fake website, the security researchers discovered, featured content related to a Charming Kitten campaign that ClearSky exposed only several weeks ago. That page, however, wasn’t customized to look like the security firm’s website. 
+The fake website started being flagged as deceptive soon after ClearSky discovered it. The security firm says that its employees, services, and customers were not affected. 
+Over the past years, security researchers managed to link various hacking groups to Iran, including APT33, Rocket Kitten, Magic Hound, and CopyKittens, and even revealed that they tend to share infrastructure and malware code. 
+Related: HBO Hacker Linked to Iranian Spy Group
+Related: Iranian Cyberspies Use New Trojan in Middle East Attacks
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Ionut Arghire is an international correspondent for SecurityWeek. Previous Columns by Ionut Arghire:‘DemonBot' Botnet Targets Hadoop ServersLogical Bug in Microsoft Word's 'Online Video' Allows Code ExecutionSOC-as-a-Service Firm Arctic Wolf Networks Raises $45 MillionMultiple Vulnerabilities Patched in ASRock Drivers'TimpDoor' Malware Turns Android Devices into Proxies
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+Register an Invite to the CISO Forum at Half Moon Bay
+
+sponsored links
+
+Tags: NEWS & INDUSTRY
+Cybercrime",https://www.securityweek.com/iranian-hackers-impersonate-israeli-security-firm
+3,APT33,"Industry Reactions to Iran Cyber Retaliation Over U.S. Nuclear Deal Exit
+President Donald Trump announced this week that the U.S. is withdrawing from the Iran nuclear deal and reimposing sanctions on the Middle Eastern country. Many experts fear that Iran will retaliate by launching cyberattacks on Western organizations.
+Industry professionals contacted by SecurityWeek all say that there is a strong possibility of attacks, but they mostly agree that Iran will likely not try to cause too much damage as that could lead to massive response from the United States and its allies.
+And the feedback begins...
+Ross Rustici, senior director, intelligence services, Cybereason:
+“Iran is currently in a precarious position, any disproportionate retaliation risks alienating the European community that is currently aligned with continued sanctions relief in exchange for IAEA inspections. Compounding that with the fact the Iran's domestic situation has degraded over the last several years a result of its intervention in the broader Middle East and its proxy war with Saudi Arabia, leaves Iran's leadership needing to be very careful with how directly it confronts the United States on this issue.
+ 
+In the near term Iran is most likely going to take a wait and see approach to the decertification of the deal by Trump. If sanctions are imposed on Iran and it serves to cause significant economic harm though rigorous enforcement, then Iran will probably seek to retaliate in a fashion similar to what the US experienced in 2013 with the DDoS attacks against the financial sector. Despite the Iranian cyber program maturing significantly in the past five years, they will focus on a proportional response to whatever sanctions regime is levied against them. Disruptions that cause financial loss rather that destruction is where the regime is likely to go first. Iran is only likely to use significant destructive capabilities if the situation escalates or the US expands its role in supporting Saudi Arabia.
+ 
+Given Iran's growth over the last five years in the cyber domain, I would expect them to at least be initially successful against civilian targets in the US should they decide to go that route. From a technical perspective they have more than enough capability to carry out successful attacks, as we have seen in the Middle East and the United States. If private sector networks are left to their own defences, Iran will have a high success rate. The thing that will reduce their operational capacity is if the US government takes a proactive and aggressive counter cyber posture and actively disrupts Iran's program before an attack is launched. While this would greatly hamper Iran's efforts it would not eliminate them completely and it would also be an escalation that could result in Iran taking more destructive measures because they have less options and control.”
+
+Priscilla Moriuchi, Director of Strategic Threat Development, Recorded Future:
+“President Trump’s actions have placed American businesses at increased risk for retaliatory and destructive cyber attacks by the Islamic Republic. We assess that within months, if not sooner, American companies in the financial, critical infrastructure, oil, and energy sectors will likely face aggressive and destructive cyber attacks by Iranian state-sponsored actors.
+ 
+Further, our research indicates that because of the need for a quick response, the Islamic Republic may utilise contractors that are less politically and ideologically reliable (and trusted) and as a result, could be more difficult to control. It is possible that this dynamic could limit the ability of the government to control the scope and scale of these destructive attacks once they are unleashed.”
+
+Phil Neray, VP of Industrial Cybersecurity, CyberX:
+“Cyber is an ideal mechanism for weaker adversaries like Iran because it allows them to demonstrate strength on the global stage without resorting to armed conflict. I expect that Iran will continue to escalate its cyberattacks on US targets but will keep them below the threshold that would require a kinetic response from the US.
+
+TRITON shows that Iran has the skills to launch damaging attacks on critical infrastructure. However, for now they confine these attacks to Middle Eastern targets in the same way that Russia has so far only shut down the power grid in the Ukraine. We should expect Iran to conduct phishing and cyber espionage attacks against US-based industrial and critical infrastructure firms -- as we've seen with Russian threat actors -- with the goal of establishing footholds in OT networks that could later be used for more destructive attacks.”
+
+Gen. Earl Matthews, senior vice president and chief strategy officer, Verodin:
+“The Iranians continue to improve and have become more sophisticated with their cyber capabilities. In my opinion, they are in the top 5 of countries with significant capabilities. We will definitely see increased cyber activity as a result of the US backing out of the nuclear agreement. Attacks not only against the US but many of our allies, especially Israel.
+ 
+Iran has previously attacked our financial institutions with Denial of Service and most recently penetrated a number of universities. The latest attacks represented the continued loss of intellectual property of our nation. It wouldn’t surprise me if many of these universities were specifically targeted because they are doing research and development on behalf of the US Government.
+ 
+Iran most certainly has the capability of launching significant attacks but I would view that probability to be low. They will continue to pursue softer targets where common means of access will be through social engineering and penetrate organizations with weak cyber hygiene. These attacks can be mitigated if organizations continuously automated and measured the validity, value, and effectiveness of their cybersecurity controls. We are well beyond the checklist compliance and thinking we are safe.”
+
+John Hultquist, Director of Intelligence Analysis, FireEye:
+“Iranian actors remain among the most aggressive we track, carrying out destructive and disruptive attacks in addition to stealthier acts of cyber espionage. Prior to the nuclear agreement, Iranian actors carried out several attacks against the West. There were also clear signs these actors were probing Western critical infrastructure in multiple industries for future attack. These efforts did not entirely disappear with the agreement, but they did refocus on Iran’s neighbors in the Middle East. With the dissolution of the agreement, we anticipate that Iranian cyberattacks will once again threaten Western critical infrastructure.”
+
+Sherban Naum, senior vice president for corporate strategy and technology, Bromium:
+“The premise that Iran can or will increase their attacks is predicated on both their existing computer network attack practices and risk tolerance to potential retaliation. The regime may see a need to show strength internally and take action. They will have to balance the time and resources dedicated to increase offensive efforts with the need to shore up defensive efforts due to the increased conflicts in the region from regional actors as well a potential retaliation by those that they attack.
+[...]
+There are three possible areas they could focus: Critical infrastructure, a doxxon like attack looking to shame those involved with the reversal decision and the third being in region actors and their weapons systems.
+[...]
+The questions to ask are what would motivate their taking action and their acceptable outcomes. Taking action, putting lives at risk could result in a kinetic response from the US and/or its allies as well as put into question Europe’s current support of the agreement. If they were to take out a power station and a hospital loses power, they lose the PR war and retaliation from the US is quite plausible. At this point, they want to show the world they are going to continue down the path of adhering to the nuclear agreement, that they are the ones targeted and have so much to lose. They would be better off influencing Europe to play into their hands as it could suit their economic needs and try to influence their own social media movement.”
+
+Robert Lee, CEO, Dragos:
+“ICS cyber attacks and espionage can be highly geopolitical in nature. Every time we see increased tension between states we expect to see a rise in ICS targeting, this does not mean we expect to see attacks. In this case, activity moves beyond conducting early reconnaissance to gaining access to infrastructure companies and stealing information that could be used at a later date. However simply having access to the information does not mean an attack is easy or imminent. Avoiding such tension while also defending against such aggressive efforts is the goal.”
+
+Sanjay Beri, CEO & Founder of Netskope:
+“While the repercussions of the United States pulling out of the Iran nuclear deal will be wide reaching, one of the first places you can expect to see a response is cyberspace. Nation-states, including Iran, have historically used cyberattacks as a low-risk, high-reward tactic for retaliating to political opposition. We saw this with North Korea in the form of the Sony hack, and Iran’s attack against US banks following Stuxnet.
+ 
+The U.S. needs cybersecurity leadership today more than ever if we are to stand a chance at defending the country from nation-state sponsored cyber attacks. Forming a cohesive cyber defense strategy has become nearly impossible as hundreds of departments report into a siloed set of decision makers. There’s no silver bullet, but appointing a federal CISO to oversee all of our nation’s cybersecurity initiatives and promote inter-agency collaboration would be a big step in the right direction.”
+
+Willy Leichter, Vice President of Marketing, Virsec:
+“It seems likely that a deteriorating relationship between the US and Iran will lead to more cyberattacks. There have been numerous reports about state-sponsored hacking groups in Iran including APT33 that have already targeted critical infrastructure in Saudi Arabia, South Korea, and the US. These hacking groups have access to advanced tools (many leaked from the NSA through the Shadow Brokers) to launch attacks that corrupt legitimate processes and memory, and have proved adept at creating multiple variants of these exploits. We need to expect ongoing cyber warfare to be the new normal, and it’s critical that all organizations take security much more seriously, improve their detection and protection capabilities, and train all employees to protect their credentials against theft.”
+
+Andrew Lloyd, President, Corero Network Security:
+“Given multiple reports implicating the Iranian government in the cyber-attack on the Saudi petrochemical plant, the prospect of cyber-retribution for the US withdrawal certainly exists. Also, it’s well worth remembering that even if a nation doesn't have well developed cyberwarfare resources, there’s plenty of bad actors on the global stage who are more than happy to launch attacks against the foes of anyone who’s willing to pay. Moreover, the irony is that such bad actors are able to leverage the exploits that major forces such as the US government have themselves developed and which subsequently leaked across the Dark Web’s darker commercial corners. For example, it’s well reported that groups such as the Shadow Brokers have released and brokered tools from the NSA.
+ 
+Also, basic and advanced DDoS-for-hire services abound, as we’ve seen in recent weeks and months. This all underscores the fact that all operators of essential services (and especially, critical national infrastructure) must up their game when it comes to DDoS defences. Ironically, today is the day that the EU NIS Directive becomes law in all 28 EU Member States.”
+
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+Register an Invite to the CISO Forum at Half Moon Bay
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+
+sponsored links
+
+Tags: Cyberwarfare
+NEWS & INDUSTRY
+Virus & Threats",https://www.securityweek.com/industry-reactions-iran-cyber-retaliation-over-us-nuclear-deal-exit
