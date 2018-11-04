@@ -20,8 +20,8 @@ def parse_page(key, url):
     doc["text"] = content
     result.append(doc)
     df = pd.DataFrame(result)
-    # df.to_csv("../data/" + key + "securityweek.csv")
-    df.to_csv("data/" + key + "securityweek.csv")
+    df.to_csv("../data/" + key + "securityweek.csv")
+    # df.to_csv("data/" + key + "securityweek.csv")
     
 result = []
 df = pd.read_csv("securityweek-list.csv")
