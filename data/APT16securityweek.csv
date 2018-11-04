@@ -1,0 +1,98 @@
+,query,text,url
+0,APT16,"Microsoft Office Flaw Exploited by Several APT Actors
+An Office vulnerability patched by Microsoft last year has been exploited by several advanced persistent threat (APT) actors in operations aimed at organizations in Asia, Kaspersky Lab's Global Research and Analysis Team reported on Wednesday.
+The remote code execution flaw, tracked as CVE-2015-2545, had been exploited by an APT group dubbed Platinum and TwoForOne before Microsoft released a patch in September 2015 and a more comprehensive fix two months later. The actor, which has been known to target organizations in South and Southeast Asia, has been active since at least 2009.
+CVE-2015-2545 can be exploited for arbitrary code execution via specially crafted Encapsulated PostScript (EPS) image files inserted into Office documents. The exploit for this flaw can evade Address Space Layout Randomization (ASLR) and Data Execution Prevention (DEP) mitigations.
+According to Kaspersky Lab, Platinum was the first group to exploit the vulnerability to deliver malware, but the threat actor apparently stopped using it after Microsoft released patches.
+One of the first APT groups to start leveraging CVE-2015-2545 after it was fixed by Microsoft is EvilPost, a China-linked gang that used weaponized Word documents to attack a Japanese defense contractor in December 2015.
+At around the same time, a different Chinese attacker dubbed APT16 used an exploit for this Office vulnerability to target media and government agencies in Taiwan. Organizations in Taiwan were also targeted in December 2015 by a threat actor dubbed by Kaspersky “SVCMONDR.”
+The SVCMONDR attacks share similarities with operations carried out by a group called Danti. However, researchers have not been able to precisely determine if SVCMONDR and Danti are the same group or if they simply used the same malicious code.
+Danti is an actor that has been observed targeting entities in Kazakhstan, Kyrgyzstan, Uzbekistan, Myanmar, Nepal and the Philippines. It’s believed to be a new group that is related to the NetTraveler and DragonOK cyberspies, whose activities were analyzed in 2013 and 2014.
+Danti used CVE-2015-2545 in February and March to launch attacks against Indian diplomatic organizations, including many embassies. The group’s activities were also analyzed recently by Palo Alto Networks, which found connections between the malware used in the attacks aimed at Indian embassies and malware used in 2013 in a campaign called Operation Ke3chang. Evidence suggests that the attackers are located in China.
+Palo Alto Networks recently also analyzed a campaign where an APT group leveraged the Office flaw to deliver a Poison Ivy variant named “SPIVY” to organizations in Hong Kong.
+
+According to Kaspersky, all of these groups have exploited CVE-2015-2545 to target entities in Asia — none of them have been observed attacking organizations in Western Europe or the United States.
+In addition to APT actors, traditional cybercriminals have also leveraged the Office exploit in mass spam campaigns.
+“Such attacks mostly target financial institutions in Asia. Specifically, attacks have been recorded in Vietnam, the Philippines and Malaysia. There are reasons to believe that Nigerian cybercriminals are behind these attacks. In some cases, the infrastructure used is the same as the one we saw when analyzing the Adwind Trojan,” researchers said in a blog post.
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+Register an Invite to the CISO Forum at Half Moon Bay
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+
+sponsored links
+
+Tags: NEWS & INDUSTRY
+Virus & Threats",https://www.securityweek.com/microsoft-office-flaw-exploited-several-apt-actors
+1,APT16,"Year-Old Office Vulnerabilities Most Popular in Current Attacks
+Most attacks that are targeting vulnerabilities in Microsoft Office to compromise victims’ systems are currently leveraging two security issues that were discovered last year, SophosLabs researchers warn.
+Over the past several weeks, CVE-2015-1641 and CVE-2015-2545 have emerged as the most popular Office exploits out there, dethroning CVE-2012-0158, a four-year old vulnerability that experts suggested might be called “the bug that just won’t die.” Still leveraged in many attacks, the bug fuels only a small percentage of them now, although it was abused in approxiately half of incidents in Q4 2015.
+According to a new report from SophosLabs, CVE-2015-1641 now accounts for nearly 66% of attacks, although it has been on the charts for only several months, while CVE-2015-2545 fuels around 17% of attacks after recently entering the cybercrime stage and making a sudden impact. CVE-2012-0158 is now the third most popular Office exploit, leveraged in less than 12% of attacks. 
+The switch to newer exploits isn’t surprising, because users gradually patch older security flaws and attacks are no longer as successful. What might be surprising is that cybercriminals stayed with CVE-2012-0158 for so long and that they suddenly moved to a new vulnerability. 
+SophosLabs researchers, however, say that this makes perfect sense. Cybercriminals “rely on the availability of published exploit kits. As such, until these kits utilize the newer exploit code, the criminals typically do not incorporate them downstream.”
+Thus, the sudden shift in exploit usage is attributed to the most widely used AK-1 kit being upgraded to AK-2, which dropped the older flaw to the newer, more impactful CVE-2015-1641, and to Microsoft Word Intruder (MWI), another popular crimeware kit, also adding support for the newer vulnerability. Additionally, the cybercriminal groups that actively distributed FareIt and Zbot are believed to have switched from the DL-2 exploit kit to a solution using the CVE-2015-2545 exploit. 
+The inclusion of CVE-2015-1641 in AK-2 happened a while ago, but its availability in MWI is something new, SophosLabs’ report suggests. The kit was recently updated with some other functionality as well, including decoy documents, which are displayed before triggering the exploit. The typical payloads in the malicious documents created with it include the Zeus and Fareit Trojans, NetWiredRC and Nanocore backdoors, PredatorPain keylogger and the LuminosityLink RAT, researchers say.
+The CVE-2015-2545 vulnerability started its lifecycle as many other Office exploits do: high-end APT groups were using it at the 0-day stage, before an official patch was released for it. This remote code execution flaw was abused by an APT group dubbed Platinum and TwoForOne before Microsoft released a patch in September 2015. However, other groups started using it after the patch, including EvilPost and APT16, as well as NetTraveler.
+According to Sophos, from a criminal’s point of view, CVE-2015-2545 and CVE-2015-1641 appear as good replacements for the CVE-2012-0158 exploit, especially since the latter is already included in MWI and AK-2 exploit kits. 
+
+“We can expect that more cybercrime groups will discover this possibility, and we will see an increase in the use of the new Office exploits in the general user base,” SophosLabs’ Gabor Szappanos says. “The good news is that both vulnerabilities have long been fixed and patches are available. Time to install those Office security updates!”
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Previous Columns by SecurityWeek News:Privacy PolicySecurityWeek's ICS Cyber Security Conference Returns to Singapore With Strong LineupRSA Webinar: 6 Keys to Successful Identity Assurance2017 ICS Cyber Security Conference Call for Speakers Open Through August 15RSA Webinar: Evolution from Two-Factor Authentication to Identity Assurance
+Register an Invite to the CISO Forum at Half Moon Bay
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+
+sponsored links
+
+Tags: NEWS & INDUSTRY
+Vulnerabilities",https://www.securityweek.com/year-old-office-vulnerabilities-most-popular-current-attacks

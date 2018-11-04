@@ -1,0 +1,97 @@
+,query,text,url
+0,APT12,"China-Linked Spies Target Taiwan With IE Exploit
+A cyberespionage group linked to China has been spotted targeting government organizations in Taiwan using an Internet Explorer vulnerability patched by Microsoft earlier this year.
+Researchers have been monitoring a campaign they’ve dubbed “CNACOM,” in which attackers have used compromised websites to deliver a piece of malware. One of the compromised sites, known as a watering hole, belonged to a major public service organization in Taiwan.
+When users accessed this website’s registration page, an iframe injected into the footer loaded an exploit landing page. The Internet Explorer vulnerability leveraged by this exploit, tracked as CVE-2016-0189, was fixed by Microsoft in May, but it had been seen in targeted attacks against users in South Korea before a patch was made available.
+A few weeks after Microsoft resolved the flaw, researchers published a proof-of-concept (PoC) exploit. The PoC code was used by cybercriminals to integrate the security hole into several exploit kits.
+The same PoC code has been used in the CNACOM campaign, but the payload has been invoked through an Internet Explorer sandbox escape flaw tracked as CVE-2015-0016.
+In the CNACOM attacks, the exploit code collects information from the device, including its IP address. If the victim uses Internet Explorer and the IP address is known to belong to the Taiwanese government, the exploit delivers a variant of the malware dubbed Ixeshe.
+Ixeshe has been around since at least 2009 and it has been observed in attacks aimed at East Asian governments and electronics manufacturers, including in Taiwan. The malware was also linked to the attacks launched in 2012 against The New York Times.
+The group behind Ixeshe, also known as APT12, Numbered Panda and DynCalc, is believed to be operating out of China.
+According to Zscaler, the Ixeshe variant spotted in the recent Taiwan attacks is different from older versions as the campaign codes it uses are embedded into the malware, which could indicate that the threat relies on a more centralized tracking system.
+Zscaler is not the only security firm to monitor China-linked attacks aimed at Taiwan’s government. Palo Alto Networks and FireEye also reported seeing such attacks in the past few months.
+Related: China-Linked Cyberspies Lure Victims With Security Conference Invites
+Related: China-Linked APT3 Group Focuses Attacks on Hong Kong
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
+Register an Invite to the CISO Forum at Half Moon Bay
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+
+sponsored links
+
+Tags: NEWS & INDUSTRY
+Virus & Threats",https://www.securityweek.com/china-linked-spies-target-taiwan-ie-exploit
+1,APT12,"APT Attackers Target Japanese Word Processor Zero-Day
+Symantec has issued an alert to warn organizations about targeted attacks against a previously undocumented security hole in Ichitaro, a word processing software program used by central and local governments as well as educational institutions in Japan. 
+Justsystems, the company that markets the Ichitaro software, has confirmed the issue and warns that live attacks are leading to full remote system compromise. 
+According to a post on the Symantec Security Response blog, the attacks may be linked to the APT 12 group that successfully hacked into the New York Times earlier this year. 
+ Symantec said it first spotted attempts to exploit the Ichitaro vulnerability in September 2013. 
+""Our analysis revealed that the samples, detected as Trojan.Mdropper, for these attacks all contained the same back door Trojan, which Symantec detected as Backdoor.Vidgrab. If the exploit is successful, in theory the shell code would be executed to drop and launch the simplified Chinese version of notepad.exe while compromising the system, with the back door connecting to a remote site,"" Symantec warned. 
+ The company noted that the identical backdoor variant was used as a payload for a watering hole attack that hit a Microsoft Internet Explorer vulnerability which was patched in October 2013. 
+ The research team is speculating that the same malware group is using vulnerabilities in multiple software to launch APT attacks. 
+""[This backdoor] is known to be used to target the Asia-Pacific region with government sectors being the primary targets according to Trend Micro. Symantec telemetries do not dispute this claim,"" the company said. 
+ In the latest Ichitaro attacks, Symantec says the Trojan is delivered as e-mail attachments with Ichataro's .jtd file extension. However, the malicious files are actually rich text format files that cannot be opened using Microsoft Word as they are designed to work only with Ichitaro. 
+ ""An interesting point of this attack campaign is that the malware group used unusual subject lines and email content that are not commonly used in targeted attacks,"" Symantec said. 
+This is a classic spear-phishing attack that attempts to lure the targets to a popular Japanese online shopping site. If the target opens the file, the zero-day vulnerability is exploited and malware is placed on the machine that attempts to connect to a web site associated with the APT 12 group. 
+Security researchers are noticing a spike in advanced attacks against Japanese targets. Earlier this year, Kaspersky Lab warned about the Icefog cyber-espionage campaign that targeted governmental institutions, military contractors, maritime and ship-building groups, telecom operators, satellite operators, industrial and high technology companies and mass media, mainly in South Korea and Japan.
+
+
+
+
+
+
+
+
+
+           (function() {
+           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
+           po.src = ""https://apis.google.com/js/plusone.js"";
+           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
+           })();
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+Ryan is the host of the SecurityWeek podcast series ""Security Conversations"". He is the head of Kaspersky Lab's Global Research & Analysis team in the USA and has extensive experience in computer security user education, specializing in operating system and third-party application vulnerabilities, zero-day attacks, social engineering and social networking threats. Prior to joining Kaspersky Lab, he monitored security and hacker attack trends for over 10 years, writing for eWEEK magazine and the ZDNet Zero Day blog. Follow Ryan on Twitter @ryanaraine.Previous Columns by Ryan Naraine:Podcast: Thomas Rid on Cyberwar, Attribution and the Crypto DebatePodcast: Jeremiah Grossman on the Attacker-Defender MentalityMozilla Pushes for FBI Disclosure of Tor Browser Zero-dayFive-year-old SAP Vulnerability Haunts Global BusinessesAdobe Flash Zero-Day Under Attack
+Register an Invite to the CISO Forum at Half Moon Bay
+2019 ICS Cyber Security Conference | Singapore [April 2019]
+2018 ICS Cyber Security Conference | USA [Oct. 22-25]
+
+sponsored links
+
+Tags: NEWS & INDUSTRY
+Malware",https://www.securityweek.com/apt-attackers-target-japanese-word-processor-zero-day
