@@ -22,6 +22,8 @@ Rapid7: https://blog.rapid7.com/ (This site does not have the keyword search fun
 
 Symantec: https://www.symantec.com/blogs/search
 
+Security Week: https://www.securityweek.com 
+
 ## Extract:
 Group Name: Cozy Bear, APT 29, Cozy Duke, .... Targets: ......
 Incident dates: ....
