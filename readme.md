@@ -13,9 +13,13 @@ We want to collect and extract each report to merge same group’s tools that th
 https://insights.sei.cmu.edu/sei_blog/2017/09/improving-data-extraction-from-cybersecurity-incident-reports.html https://countuponsecurity.com/2017/01/12/extract-and-use-indicators-of-compromise-from-security-reports/
 
 Crowd Strike: https://www.crowdstrike.com/blog/
+
 FireEye: https://www.fireeye.com/blog/threat-research.html
+
 SecueList: https://securelist.com
+
 Rapid7: https://blog.rapid7.com/ (This site does not have the keyword search function, so you need to find something different approach)
+
 Symantec: https://www.symantec.com/blogs/search
 
 ## Extract:
