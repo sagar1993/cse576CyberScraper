@@ -10,7 +10,7 @@ Extract information of attacker’s name, tools, ip addresses and so on Challeng
 Each cyber security company or lab publish Security Incident Reports. Each company names a hacker group by its rule.
 We want to collect and extract each report to merge same group’s tools that they use, targets, their methods and so on.
 
-https://insights.sei.cmu.edu/sei_blog/2017/09/improving-data-extraction-from- cybersecurity-incident-reports.html https://countuponsecurity.com/2017/01/12/extract-and-use-indicators-of- compromise-from-security-reports/
+https://insights.sei.cmu.edu/sei_blog/2017/09/improving-data-extraction-from-cybersecurity-incident-reports.html https://countuponsecurity.com/2017/01/12/extract-and-use-indicators-of-compromise-from-security-reports/
 
 Crowd Strike: https://www.crowdstrike.com/blog/
 FireEye: https://www.fireeye.com/blog/threat-research.html
