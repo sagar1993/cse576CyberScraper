@@ -1,5 +1,5 @@
-,article-name,article-url,content,keyword
-0,Adobe patches Flash Player vulnerability used in Pawn Storm APT campaign,https://www.symantec.com/connect/blogs/adobe-patches-flash-player-vulnerability-used-pawn-storm-apt-campaign,"+2
+,url,text,keyword
+0,https://www.symantec.com/connect/blogs/adobe-patches-flash-player-vulnerability-used-pawn-storm-apt-campaign,"+2
 2
 0
 
@@ -122,7 +122,7 @@ Products, Endpoint Protection, Security Response, Adobe, Adobe Flash Player, CVE
 Groups: 
 
 Subscriptions (0)",APT28
-1,Java zero-day vulnerability used in limited attacks,https://www.symantec.com/connect/blogs/java-zero-day-vulnerability-used-limited-attacks,"+2
+1,https://www.symantec.com/connect/blogs/java-zero-day-vulnerability-used-limited-attacks,"+2
 2
 0
 
@@ -226,7 +226,7 @@ Products, Endpoint Protection, Security Response, 0day, Java, Vulnerabilities & 
 Groups: 
 
 Subscriptions (0)",APT28
-2,APT28: New Espionage Operations Target Military and Government Organizations,https://www.symantec.com/blogs/election-security/apt28-espionage-military-government,"Posted: 4 Oct, 2018
+2,https://www.symantec.com/blogs/election-security/apt28-espionage-military-government,"Posted: 4 Oct, 2018
 5 Min Read
 Election Security
 
@@ -407,7 +407,7 @@ LinkedIn
 
 
 Facebook",APT28
-3,Subverting Democracy: How Cyber Attackers Try to Hack the Vote,https://www.symantec.com/blogs/election-security/election-hacking-faq,"Posted: 18 Sep, 2018
+3,https://www.symantec.com/blogs/election-security/election-hacking-faq,"Posted: 18 Sep, 2018
 4 Min Read
 Election Security
 
