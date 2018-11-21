@@ -1,4 +1,4 @@
-,text,url
+,text,url,query
 0,"APT17: Hiding in Plain
 Sight - FireEye and Microsoft Expose Obfuscation Tactic     Threat actors have found a new way to
 dodge security professionals, using popular websites’ legitimate
@@ -15,4 +15,4 @@ have already adopted a “hide in plain sight” approach to hacking.  Download 
 targeting  How they bypassed traditional methods to avoid
 detection  How this new method of compromise differs from
 previous tactics  What FireEye and Microsoft did to shut
-down APT17’s use of the Microsoft TechNet blog   Download the report today.",https://www.fireeye.com//current-threats/apt-groups/rpt-apt17.html
+down APT17’s use of the Microsoft TechNet blog   Download the report today.",https://www.fireeye.com//current-threats/apt-groups/rpt-apt17.html,APT17

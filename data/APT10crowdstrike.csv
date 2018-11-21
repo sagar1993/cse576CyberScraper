@@ -1,4 +1,4 @@
-,url,text,keyword
+,url,text,query
 0,https://www.crowdstrike.com/blog/two-birds-one-stone-panda/,"Introduction
 In April 2017, a previously unknown group calling itself IntrusionTruth began releasing blog posts detailing individuals believed to be associated with major Chinese intrusion campaigns. Although the group’s exact motives remain unclear, its initial tranche of information exposed individuals connected to long-running GOTHIC PANDA (APT3) operations, culminating in a connection to the Chinese firm Boyusec (博御信息) and, ultimately, Chinese Ministry of State Security (MSS) entities in Guangzhou.
 Recently, in July and August 2018, IntrusionTruth has returned with new reporting regarding actors with ties to historic STONE PANDA (APT10) activity and has ultimately associated them with the MSS Tianjin Bureau (天津市国家安全局). Though CrowdStrike® Falcon Intelligence™ is currently unable to confirm all of the details provided in these most recent posts with a high degree of confidence, several key pieces of information can be verified.
