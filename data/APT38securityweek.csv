@@ -1,5 +1,6 @@
 ,query,text,url
 0,APT38,"North Korean Attacks on Banks Attributed to 'APT38' Group
+
 A report published on Wednesday by FireEye details the activities of a financially motivated threat actor believed to be operating on behalf of the North Korean government.
 The group, tracked by FireEye as APT38, focuses on targeting financial institutions, and the company’s researchers estimate that it has stolen at least a hundred million dollars from banks worldwide. It’s believed that the group has attempted to steal over $1.1 billion.
 Much of the North Korea-linked cyber activity has been attributed to the notorious Lazarus, but cybersecurity firms have begun to realize that, similar to other countries, there are actually several groups that appear to be launching attacks on behalf of the government. The fact that their tools, techniques and infrastructure often overlap makes it difficult to accurately attribute an operation to a certain group.
@@ -15,47 +16,9 @@ Unlike other North Korean threat groups, APT38’s attacks are almost exclusivel
 Experts believe APT38 was created by North Korea as a result of the sanctions imposed on the country. The group was first spotted in February 2014, roughly one year after the UN blocked the regime from making bulk cash transfers and restricting its ties to international banking systems. As more and more sanctions were imposed on North Korea in the following years, APT38 escalated its activities and the frequency of attacks increased.
 FireEye has warned that APT38 continues to be active, even after the United States named and charged an alleged North Korean hacker who is said to have been involved in the development of Lazarus tools.
 Related: U.S. Links North Korean Government to ATM Hacks
-Related: NKorea Said to Have Stolen a Fortune in Online Bank Heists
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
-Register an Invite to the CISO Forum at Half Moon Bay
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Fraud & Identity Theft
-Virus & Malware
-Cybercrime",https://www.securityweek.com/north-korean-attacks-banks-attributed-apt38-group
+Related: NKorea Said to Have Stolen a Fortune in Online Bank Heists",https://www.securityweek.com/north-korean-attacks-banks-attributed-apt38-group
 1,APT38,"NKorea Said to Have Stolen a Fortune in Online Bank Heists
+
 North Korea’s nuclear and missile tests have stopped, but its hacking operations to gather intelligence and raise funds for the sanction-strapped government in Pyongyang may be gathering steam.
 U.S. security firm FireEye raised the alarm Wednesday over a North Korean group that it says has stolen hundreds of millions of dollars by infiltrating the computer systems of banks around the world since 2014 through highly sophisticated and destructive attacks that have spanned at least 11 countries. It says the group is still operating and poses “an active global threat.”
 It is part of a wider pattern of malicious state-backed cyber activity that has led the Trump administration to identify North Korea — along with Russia, Iran and China — as one of the main online threats facing the United States. Last month, the Justice Department charged a North Korean hacker said to have conspired in devastating cyberattacks, including an $81 million heist of Bangladesh’s central bank and the WannaCry virus that crippled parts of Britain’s National Health Service.
@@ -73,43 +36,4 @@ Sandra Joyce, FireEye’s head of global intelligence, said that while APT38 is 
 “We see this as a consistent effort, before, during and after any diplomatic efforts by the United States and the international community,” said Joyce, describing North Korea as being “undeterred” and urging the U.S. government to provide more specific threat information to financial institutions about APT38′s modus operandi. APT stands for Advanced Persistent Threat.
 The Silicon Valley-based company says it is aware of continuing, suspected APT38 operations against other banks. The most recent attack it is publicly attributing to APT38 was against of Chile’s biggest commercial banks, Banco de Chile, in May this year. The bank has said a hacking operation robbed it of $10 million.
 FireEye, which is staffed with a roster of former military and law-enforcement cyberexperts, conducted malware analysis for a criminal indictment by the Justice Department last month against Park Jin Hyok, the first time a hacker said to be from North Korea has faced U.S. criminal charges. He’s accused of conspiring in a number of devastating cyberattacks: the Bangladesh heist and other attempts to steal more than $1 billion from financial institutions around the world; the 2014 breach of Sony Pictures Entertainment; and the WannaCry ransomware virus that in 2017 infected computers in 150 countries.
-Related: U.S. Links North Korean Government to ATM Hacks
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Previous Columns by Associated Press:Feds Accuse Ex-CIA Employee of Continuing Leaks From PrisonLaw Enforcement Faces Dilemma in Assessing Online ThreatsEx-Air Force Airman in New Mexico Accused of Computer FraudUS Election Integrity Depends on Security-Challenged FirmsRussian Held as Agent Studied US Groups' Cyberdefenses
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-Register an Invite to the CISO Forum at Half Moon Bay
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Fraud & Identity Theft
-Virus & Malware
-Cybercrime",https://www.securityweek.com/nkorea-said-have-stolen-fortune-online-bank-heists
+Related: U.S. Links North Korean Government to ATM Hacks",https://www.securityweek.com/nkorea-said-have-stolen-fortune-online-bank-heists

@@ -1,54 +1,21 @@
 ,query,text,url
 0,APT35,"Iranian Hackers Impersonate Israeli Security Firm
+
 A group of Iranian hackers focused on cyber-espionage recently built up a website to impersonate ClearSky Cyber Security, the Israeli firm that exposed their activities not long ago.
-The hackers, tracked as APT35 and also known as NewsBeef, Newscaster, and Charming Kitten, have been active since at least 2011, with their activities detailed for the first time several years ago. 
-In December 2017, ClearSky Cyber Security published a report detailing the group’s activities during the 2016-2017 timeframe. The security firm not only described the actor’s infrastructure, but also provided information on DownPaper, a new piece of malware the hackers had been using. 
+The hackers, tracked as APT35 and also known as NewsBeef, Newscaster, and Charming Kitten, have been active since at least 2011, with their activities detailed for the first time several years ago.
+In December 2017, ClearSky Cyber Security published a report detailing the group’s activities during the 2016-2017 timeframe. The security firm not only described the actor’s infrastructure, but also provided information on DownPaper, a new piece of malware the hackers had been using.
 The security firm exposed the link between the group and Behzad Mesri, also known as Skote Vahshat, who was charged in November 2017 with the hacking of HBO. Furthermore, the researchers also managed to establish the identity of two other alleged members of the group.
-Roughly half a year after the report was published, the security firm announced on its Twitter account that the hackers built their own site impersonating ClearSky. 
-“#CharmingKitten built a phishing website impersonating our company. The fake website is clearskysecurity\.net (the real website is http://clearskysec.com),” the security firm announced. 
-The advanced persistent threat (APT) apparently copied entire pages from the legitimate website, but also changed one of them to include a sign in option with multiple services. Anyone entering credentials there would have had them sent to the actor instead. 
- “These sign in options are all phishing pages that would send the victim's credentials to the attackers. Our legitimate website does not have any sign in option. It seems that the impersonating website is still being built because some of the pages have error messages in them,” the security firm announced. 
-One of the pages on the fake website, the security researchers discovered, featured content related to a Charming Kitten campaign that ClearSky exposed only several weeks ago. That page, however, wasn’t customized to look like the security firm’s website. 
-The fake website started being flagged as deceptive soon after ClearSky discovered it. The security firm says that its employees, services, and customers were not affected. 
-Over the past years, security researchers managed to link various hacking groups to Iran, including APT33, Rocket Kitten, Magic Hound, and CopyKittens, and even revealed that they tend to share infrastructure and malware code. 
+Roughly half a year after the report was published, the security firm announced on its Twitter account that the hackers built their own site impersonating ClearSky.
+“#CharmingKitten built a phishing website impersonating our company. The fake website is clearskysecurity\.net (the real website is http://clearskysec.com),” the security firm announced.
+The advanced persistent threat (APT) apparently copied entire pages from the legitimate website, but also changed one of them to include a sign in option with multiple services. Anyone entering credentials there would have had them sent to the actor instead.
+ “These sign in options are all phishing pages that would send the victim's credentials to the attackers. Our legitimate website does not have any sign in option. It seems that the impersonating website is still being built because some of the pages have error messages in them,” the security firm announced.
+One of the pages on the fake website, the security researchers discovered, featured content related to a Charming Kitten campaign that ClearSky exposed only several weeks ago. That page, however, wasn’t customized to look like the security firm’s website.
+The fake website started being flagged as deceptive soon after ClearSky discovered it. The security firm says that its employees, services, and customers were not affected.
+Over the past years, security researchers managed to link various hacking groups to Iran, including APT33, Rocket Kitten, Magic Hound, and CopyKittens, and even revealed that they tend to share infrastructure and malware code.
 Related: HBO Hacker Linked to Iranian Spy Group
-Related: Iranian Cyberspies Use New Trojan in Middle East Attacks
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Ionut Arghire is an international correspondent for SecurityWeek. Previous Columns by Ionut Arghire:‘DemonBot' Botnet Targets Hadoop ServersLogical Bug in Microsoft Word's 'Online Video' Allows Code ExecutionSOC-as-a-Service Firm Arctic Wolf Networks Raises $45 MillionMultiple Vulnerabilities Patched in ASRock Drivers'TimpDoor' Malware Turns Android Devices into Proxies
-Register an Invite to the CISO Forum at Half Moon Bay
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-
-sponsored links
-
-Tags: NEWS & INDUSTRY
-Cybercrime",https://www.securityweek.com/iranian-hackers-impersonate-israeli-security-firm
+Related: Iranian Cyberspies Use New Trojan in Middle East Attacks",https://www.securityweek.com/iranian-hackers-impersonate-israeli-security-firm
 1,APT35,"Iran-Linked Influence Campaign Targets US, Others
+
 Threat actors apparently working out of Iran have been conducting an operation whose goal is to influence the opinions of people in the United States and other countries around the world, FireEye reported on Tuesday.
 This campaign, which the cybersecurity firm describes as an “influence operation,” involves a network of “inauthentic” news websites and clusters of social media accounts whose apparent purpose is to “promote political narratives in line with Iranian interests.”
 The sites that FireEye calls “inauthentic” make an effort to hide their origins and affiliations, and rely on fake social media personas to promote content. This content is either original, copied from other sources, or taken from other sources and modified.
@@ -61,45 +28,9 @@ The cybersecurity firm noted that the Iran-linked threat actor tracked as APT35,
 FireEye is preparing a report containing technical details on the operation. The report will be shared on request.
 Related: US Braces for Possible Cyberattacks After Iran Sanctions
 Related: Iran-linked Hackers Adopt New Data Exfiltration Methods
-Related: Iran-Linked 'Leafminer' Espionage Campaign Targets Middle East
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-Register an Invite to the CISO Forum at Half Moon Bay
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Fraud & Identity Theft",https://www.securityweek.com/iran-linked-influence-campaign-targets-us-others
+Related: Iran-Linked 'Leafminer' Espionage Campaign Targets Middle East",https://www.securityweek.com/iran-linked-influence-campaign-targets-us-others
 2,APT35,"Breaches Increasingly Discovered Internally: Mandiant
+
 Organizations are getting increasingly better at discovering data breaches on their own, with more than 60% of intrusions in 2017 detected internally, according to FireEye-owned Mandiant.
 The company’s M-Trends report for 2018 shows that the global median time for internal detection dropped to 57.5 days in 2017, compared to 80 days in the previous year. Of the total number of breaches investigated by Mandiant last year, 62% were discovered internally, up from 53% in 2016.
 On the other hand, it still took roughly the same amount of time for organizations to learn that their systems had been compromised. The global median dwell time in 2017 – the median time from the first evidence of a hack to detection – was 101 days, compared to 99 days in 2016.
@@ -112,43 +43,4 @@ When it comes to the most targeted industries, companies in the financial and hi
 Last year, FireEye assigned names to four state-sponsored threat groups, including the Vietnam-linked APT32 (OceanLotus), and the Iran-linked APT33, APT34 (OilRig), and APT35 (NewsBeef, Newscaster and Charming Kitten).
 “Iran-sponsored threat actors have compromised a variety of organizations, but recently they have expanded their efforts in a way that previously seemed beyond their grasp,” Mandiant said in its report. “Today they leverage strategic web compromises (SWC) to ensnare more victims, and concurrently maintain persistence across multiple organizations for months and sometimes years. Rather than relying on publicly available malware and utilities, they develop and deploy custom malware. When they are not carrying out destructive attacks against their targets, they are conducting espionage and stealing data like professionals.”
 Related: Organizations Getting Better at Detecting Breaches
-Related: Financial Attackers as Sophisticated as Nation-State Groups
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-Register an Invite to the CISO Forum at Half Moon Bay
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Incident Response
-Cybercrime
-Management & Strategy",https://www.securityweek.com/breaches-increasingly-discovered-internally-mandiant
+Related: Financial Attackers as Sophisticated as Nation-State Groups",https://www.securityweek.com/breaches-increasingly-discovered-internally-mandiant

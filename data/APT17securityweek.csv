@@ -1,5 +1,6 @@
 ,query,text,url
 0,APT17,"Chinese Threat Group Uses Microsoft's TechNet Portal to Host C&C IPs
+
 The Chinese threat actor known as APT17 and DeputyDog has been using profile pages and forum threads on Microsoft’s TechNet web portal to host IP addresses for command and control (C&C) servers.
 Researchers at FireEye Threat Intelligence and the Microsoft Threat Intelligence Center have prepared a brief report on the advanced persistent threat (APT) actor’s C&C obfuscation techniques.
 Experts have determined that the attackers haven’t actually compromised Microsoft’s website. Instead, they are using the portal’s legitimate functionality to host encoded strings that hide C&C IP addresses.
@@ -10,43 +11,9 @@ In one example mentioned in the report from FireEye and Microsoft, the encoded I
 Once the IP for the C&C is obtained, the malware starts communicating with the server. BLACKCOFFEE uses the C&C server to receive commands and to send information stolen from the infected device back to the malicious actors.
 “If the C2 server is discovered or shut down, the threat actors can update the encoded IP address on TechNet to maintain control of the victims’ machines,” the companies explained in the report.
 Experts have pointed out that the use of a legitimate service, dubbed by some a “dead drop resolver,” and the embedding of an encoded IP address benefits the attackers because it delays detection, and can prevent the discovery of the C&C server’s IP address. FireEye believes other threat groups are already using, or will use, variations of this technique in their operations.
-“After discovering the BLACKCOFFEE activity, the FireEye-Microsoft team encoded a sinkhole IP address into the profile pages and forum threads and locked the accounts to prevent the threat actors from making any changes,” the report noted. “This collaborative approach allowed the team to observe the malware and its victims. With this information, Microsoft and FireEye can work with the anti-virus community to generate signatures to identify and clean systems affected by the malware and alert other forum and message board managers to be on the lookout for this technique.”
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-Register an Invite to the CISO Forum at Half Moon Bay
-
-sponsored links
-
-Tags: NEWS & INDUSTRY
-Virus & Malware",https://www.securityweek.com/chinese-threat-group-uses-microsofts-technet-portal-host-cc-ips
+“After discovering the BLACKCOFFEE activity, the FireEye-Microsoft team encoded a sinkhole IP address into the profile pages and forum threads and locked the accounts to prevent the threat actors from making any changes,” the report noted. “This collaborative approach allowed the team to observe the malware and its victims. With this information, Microsoft and FireEye can work with the anti-virus community to generate signatures to identify and clean systems affected by the malware and alert other forum and message board managers to be on the lookout for this technique.”",https://www.securityweek.com/chinese-threat-group-uses-microsofts-technet-portal-host-cc-ips
 1,APT17,"Researchers Link CCleaner Attack to State-sponsored Chinese Hackers
+
 The sophisticated supply chain attack that resulted in millions of users downloading a backdoored version of the popular CCleaner PC software utility was the work of state-sponsored Chinese hackers, according to a new report.
 The attack started with the compromise of a CCleaner server in early July, which allowed hackers to inject backdoor code in two versions of the tool, namely 32-bit CCleaner v5.33.6162 and CCleaner Cloud v1.07.3191. Between August 15 and September 12, over 2.27 million users downloaded the infected binaries.
 Investigation into the attack revealed that the backdoored code was only the first stage of the intended user compromise, and that a second-stage payload had been delivered to a small number of selected targets.
@@ -60,43 +27,9 @@ While looking at the backdoor, the researchers discovered unique code implementa
 Analysis of the stage 2 payload revealed that one of the dropped modules is another backdoor designed to connect to a few domains. It would also connect to an IP to grab the next stage payload, which the researchers haven’t been able to identify until now.
 “The complexity and quality of this particular attack has led our team to conclude that it was most likely state-sponsored. Considering this new evidence, the malware can be attributed to the Axiom group due to both the nature of the attack itself and the specific code reuse throughout that our technology was able to uncover,” Rosenberg concludes.
 Related: Backup Database Reveals Scale of CCleaner Hack
-Related: Attack on Software Firm Was Sophisticated, Highly Targeted
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Ionut Arghire is an international correspondent for SecurityWeek. Previous Columns by Ionut Arghire:‘DemonBot' Botnet Targets Hadoop ServersLogical Bug in Microsoft Word's 'Online Video' Allows Code ExecutionSOC-as-a-Service Firm Arctic Wolf Networks Raises $45 MillionMultiple Vulnerabilities Patched in ASRock Drivers'TimpDoor' Malware Turns Android Devices into Proxies
-Register an Invite to the CISO Forum at Half Moon Bay
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-
-sponsored links
-
-Tags: NEWS & INDUSTRY
-Cybercrime",https://www.securityweek.com/researchers-link-ccleaner-attack-state-sponsored-chinese-hackers
+Related: Attack on Software Firm Was Sophisticated, Highly Targeted",https://www.securityweek.com/researchers-link-ccleaner-attack-state-sponsored-chinese-hackers
 2,APT17,"CCleaner Incident Investigation Reveals Possible Stage 3 Payload
+
 CANCUN - KASPERSKY SECURITY ANALYST SUMMIT - The investigation into the September 2017 CCleaner incident has revealed what appears to be a stage three payload that attackers supposedly intended to deliver to infected users.
 The attack was disclosed on September 18, when security firm Avast revealed that 2.27 million users worldwide had downloaded an infected CCleaner installation file between August 15 and September 12. Hackers had added a backdoor to the 32-bit CCleaner v5.33.6162 and CCleaner Cloud v1.07.3191 releases, Avast revealed.
 What led to this was the compromise of the distribution servers of Piriform, the company developing CCleaner, in the months before Avast purchased the software firm. The code in the modified installers could collect non-sensitive information from the infected machines, and could also deliver a second stage binary.
@@ -111,48 +44,9 @@ The security firm also discovered ShadowPad log files containing encrypted key s
 “While ShadowPad was installed on the Piriform network itself and, as far as we can tell through our investigations today, not on any of the CCleaner customers’ computers, we believe that this tool was the intended third stage for the CCleaner customers,” Avast says.
 The second-stage malware deployed to only 40 computers of the millions that downloaded the infected CCleaner versions, but Avast couldn’t determine whether the third stage payload was meant for all of them or only a few, if any.
 Related: Researchers Link CCleaner Attack to State-sponsored Chinese Hackers
-Related: Backdoors Found in Tools Used by Hundreds of Organizations
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Ionut Arghire is an international correspondent for SecurityWeek. Previous Columns by Ionut Arghire:‘DemonBot' Botnet Targets Hadoop ServersLogical Bug in Microsoft Word's 'Online Video' Allows Code ExecutionSOC-as-a-Service Firm Arctic Wolf Networks Raises $45 MillionMultiple Vulnerabilities Patched in ASRock Drivers'TimpDoor' Malware Turns Android Devices into Proxies
-Register an Invite to the CISO Forum at Half Moon Bay
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Incident Response
-Virus & Malware
-Malware
-Cybercrime",https://www.securityweek.com/ccleaner-incident-investigation-reveals-possible-stage-3-payload
+Related: Backdoors Found in Tools Used by Hundreds of Organizations",https://www.securityweek.com/ccleaner-incident-investigation-reveals-possible-stage-3-payload
 3,APT17,"Researchers Link Several State-Sponsored Chinese Spy Groups
+
 Researchers have discovered links between several cyber espionage groups believed to be sponsored by the Chinese government and found that at least some of them may be working from the Xicheng District of Beijing.
 A report published last week by 401TRG, the threat research and analysis team at ProtectWise, revealed links between several campaigns conducted over the past decade. Researchers claim that various threat groups previously attributed to Chinese-speaking actors are all connected to China’s state intelligence apparatus under what they call the “Winnti umbrella.”
 Threat actors such as Winnti, Gref, PlayfullDragon, APT17, DeputyDog, Axiom, BARIUM, LEAD, PassCV, Wicked Panda, and ShadowPad are all believed to be part of the Winnti umbrella based on the use of similar tactics, techniques, and procedures (TTPs), and overlaps in infrastructure and operations. Experts believe they are “the work of individual teams, including contractors external to the Chinese government, with varying levels of expertise, cooperating on a specific agenda.”
@@ -164,48 +58,12 @@ While the attackers have taken steps to hide their identity, they have made some
 “In the attackers’ ideal situation, all remote access occurs through their own C2 infrastructure, which acts as a proxy and obscures their true location,” 401TRG said in its report. “However, we have observed a few cases of the attackers mistakenly accessing victim machines without a proxy, potentially identifying the true location of the individual running the session. In all of these cases, the net block was 221.216.0.0/13, the China Unicom Beijing Network, Xicheng District.”
 Related: 'Tick' Cyber Espionage Group Linked to China
 Related: China-Linked Spies Used New Malware in U.K. Government Attack
-Related: Chinese Cyberspies Deliver New Malware via CPL Files
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Eduard Kovacs (@EduardKovacs) is a contributing editor at SecurityWeek. He worked as a high school IT teacher for two years before starting a career in journalism as Softpedia’s security news reporter. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering.Previous Columns by Eduard Kovacs:Sauter Quickly Patches Flaw in Building Automation SoftwareRadisson Hotel Group Hit by Data BreachNew Bill Proposes Prison for Execs Misusing Consumer DataUSB Drives Deliver Dangerous Malware to Industrial Facilities: HoneywellBluetooth Chip Flaws Expose Enterprises to Remote Attacks
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-Register an Invite to the CISO Forum at Half Moon Bay
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-
-sponsored links
-
-Tags: Cyberwarfare
-NEWS & INDUSTRY
-Virus & Threats
-Virus & Malware",https://www.securityweek.com/researchers-link-several-state-sponsored-chinese-spy-groups
+Related: Chinese Cyberspies Deliver New Malware via CPL Files",https://www.securityweek.com/researchers-link-several-state-sponsored-chinese-spy-groups
 4,APT17,"Cyber Espionage Targets Interests in South China Sea
+
 A cyber espionage campaign has been discovered apparently targeting participants in the recent Permanent Court of Arbitration case brought by the Philippines against China over Chinese claims of sovereignty in the South China Sea. The case was found against China last month. China itself did not accept the validity of the case, did not attend the arbitration, and has since rejected the ruling.
 The cyber espionage campaign was discovered by F-Secure. It named it NanHaiShu, and has today published an analysis  of the methodology and malware involved. NanHaiShu (南海鼠) translates to ""South China Sea Rat"" in English.
- The malware was delivered by highly targeted emails in which individually crafted messages demonstrate that only specific organizations were targeted. These include the Philippines Court of Justice, the organizers of last November's APEC Summit held in the Philippines (during which it was expected that the South China Sea dispute would be discussed), and a major international law firm that represents one of the parties in the dispute.
+The malware was delivered by highly targeted emails in which individually crafted messages demonstrate that only specific organizations were targeted. These include the Philippines Court of Justice, the organizers of last November's APEC Summit held in the Philippines (during which it was expected that the South China Sea dispute would be discussed), and a major international law firm that represents one of the parties in the dispute.
 The malware delivered to the law firm was contained in an Excel macro. The message talks about ""the range of salaries and/or bonuses"", and the XLS attachment filename is 'Salary and Bonus Data.xls'. The combination of the email message and a VBA delivery mechanism suggests that considerable effort was put into researching the targets and socially engineering the attack. VBA simply will not work for targets with Excel's default settings, suggesting that the attackers were aware that their targets specifically allow macros within their day to day work.
 The malware itself is a remote access trojan (RAT) capable of downloading additional malware and exfiltrating files to the C&C server. F-Secure doesn't know what files might have stolen from the victims, so cannot absolutely confirm the arbitration case as the primary motive. The timeline of infections, targets and notable events around the arbitration does, however, provide compelling circumstantial evidence.
 The malware shows strong indications of Chinese origins, with code reused from Chinese forums. ""The malware's VBA base64 decoder function seems to be popular among Chinese programmers,"" notes the report. ""Searching for the variable names on the Internet leads to a handful of Chinese websites.""
@@ -213,39 +71,4 @@ But F-Secure does not attribute the attacks to the Chinese government, nor even 
 Despite F-Secure's refusal to describe this campaign as state-sponsored, there will undoubtedly be those who will make such an assumption. Since China was not present at an international arbitration case involving their own territorial claims means they would not have direct access to some of the information presented or discussed. Espionage would be one way to obtain this information.
 Under such an assumption, the NanHaiShu gang become the equivalent of LEA informants -- neither under the control of nor working to the instructions of the LEA, but nevertheless providing welcome information to that LEA.
 One thing is certain -- Chinese feelings in the South China Sea run deep. Soon after after the ruling it commenced a major wargames exercise with, according to ZeroHedge, ""some 300 ships, dozens of fighter planes, and involved troops that are responsible for coastal defense radars, communications, and electronic warfare defense.""
-In a separate publication, F-Secure provides information on how this and similar malware campaigns can be discovered and defeated.
-
-
-
-
-
-
-
-
-
-           (function() {
-           var po = document.createElement(""script""); po.type = ""text/javascript""; po.async = true;
-           po.src = ""https://apis.google.com/js/plusone.js"";
-           var s = document.getElementsByTagName(""script"")[0]; s.parentNode.insertBefore(po, s);
-           })();
-
-
-Tweet
-
-
-
-
-
-
-
-
-
-Kevin Townsend is a Senior Contributor at SecurityWeek. He has been writing about high tech issues since before the birth of Microsoft. For the last 15 years he has specialized in information security; and has had many thousands of articles published in dozens of different magazines – from The Times and the Financial Times to current and long-gone computer magazines.Previous Columns by Kevin Townsend:Cyberattacks Against Energy Sector Are Higher Than Average: ReportUK Regulator Issues Second GDPR Enforcement Notice on Canadian Firm Proposal for Cybersecurity Civilian Corps Gets Mixed ReceptionAI-Facilitated Product Aims to Stop Spear-Phishing Attacks 92% of External Web Apps Have Exploitable Security Flaws or Weaknesses: Report
-2018 ICS Cyber Security Conference | USA [Oct. 22-25]
-Register an Invite to the CISO Forum at Half Moon Bay
-2019 ICS Cyber Security Conference | Singapore [April 2019]
-
-sponsored links
-
-Tags: NEWS & INDUSTRY
-Cybercrime",https://www.securityweek.com/cyber-espionage-targets-interests-south-china-sea
+In a separate publication, F-Secure provides information on how this and similar malware campaigns can be discovered and defeated.",https://www.securityweek.com/cyber-espionage-targets-interests-south-china-sea

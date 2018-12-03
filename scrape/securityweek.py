@@ -13,8 +13,15 @@ def parse_page(key, url):
     page = urllib2.urlopen(req).read()
     soup = BeautifulSoup(page, 'html.parser')
     heading = soup.find('h2', class_="page-title").get_text().encode('utf-8').strip()
-    texts = soup.find('div', class_="content clear-block").get_text().encode('utf-8').strip()
-    content = heading+"\r\n"+texts
+    start = soup.find('div', class_='content clear-block')
+    if start:
+        article_text = ''
+        for item in start.children:
+            if item.name != 'p':
+                continue
+            else:
+                article_text += '\n' + ''.join(item.findAll(text = True)).encode('utf-8').strip()
+    content = heading+"\r\n"+article_text
     doc["query"] = key
     doc["url"] = url
     doc["text"] = content
